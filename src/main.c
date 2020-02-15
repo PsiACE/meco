@@ -1,6 +1,4 @@
-#include "meco-config.h"
-
-#include <stdio.h>
+#include "meco/common.h"
 
 int main()
 {

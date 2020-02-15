@@ -23,6 +23,7 @@ ginst \
 	README.md \
 	scripts \
 	src \
+	include \
 
 # packaging
 cd "${DEST}"/dist

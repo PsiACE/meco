@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("meco v%s\n", PACKAGE_VERSION);
-    return 0;
+	printf("meco v%s\n", PACKAGE_VERSION);
+	return 0;
 }

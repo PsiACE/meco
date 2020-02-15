@@ -15,3 +15,18 @@ add_project_arguments([
 ], language: 'c')
 
 subdir('src')
+
+run_target(
+  'format',
+  command: ['scripts/format.sh']
+)
+
+run_target(
+  'release',
+  command: ['scripts/release.sh', meson.project_name(), meson.project_version()]
+)
+
+run_target(
+  'run',
+  command: ['scripts/run.sh']
+)

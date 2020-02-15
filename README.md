@@ -8,6 +8,17 @@ It was created because I once blamed my poor C programming skills on the lack of
 
 _**Note:**_ There is still a lot of work to do, but it is currently available.
 
+## Features
+
+- Basic project skeleton.
+- CI with github workflow.
+- Simple script for easy development.
+
+## TODO
+
+- [ ] Documentation support.
+- [ ] Try unit tests.
+
 ## Usage
 
 If you want to try it, consider installing the `meson` build system, and `ninja` must also be installed with it.
